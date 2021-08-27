@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Image Search!</title>
-        <style>
-            form {
-                padding: 28px;
-            }
-        </style>
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <form action="https://www.google.com/search?tbm=isch&q=" method="GET">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="box">
+            <form id="inputs" action="http://images.google.com/images" method="GET">
+                <a href="" id="logo"><image src="google.images.png"></image></a>
+                <input id="searchbar" type="text" name="q">
+                <input id="gs" type="submit" value="Google Images Search">
+            </form> 
+        </div>
+
     </body>
 </html>
-
