@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <a href="searchpage.html"><image id="sm_logo" src="small_google.png"></image></a>
+        <h2>Advanced Search</h2>
+        <form action="https://google.com/search">
+            <table class="srctables">
+                <tr><td><h4>Find pages with...</h4> </td> </tr>
+                <tr>
+                    <td class="kw">all these words:</td>
+                    <td><input name="as_q" type="text" class="sb"></td>
+                </tr>
+                <tr>
+                    <td class="kw">this exact word or phrase:</td>
+                    <td><input name="as_epq" type="text" class="sb"></td>
+                </tr>
+                <tr>
+                    <td class="kw">any of these words:</td>
+                    <td><input name="as_oq" class="sb" type="text"></td>
+                </tr>
+                <tr>
+                    <td class="kw">none of these words:</td>
+                    <td><input name="as_epq" type="text" class="sb"></td>
+                </tr>
+                <tr>
+                    <td class="kw">numbers ranging from:</td>
+                    <td><input name="as_q" type="number" class="sb">to<input name="as_q" type="number" class="sb"></td>
+                </tr>
+                <tr class="sb2">
+                    <td><input type="submit" value="Advanced Search" id="sbtn"></td>
+                </tr>
+            </table>
+            
+        </form>
+    </body>
+</html>
